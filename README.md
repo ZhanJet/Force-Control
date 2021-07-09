@@ -1,10 +1,8 @@
 # Summary
-Universal force control package for velocity commanded robots with Force/Torque sensor mounted on wrist.
-
-This package implements force control functions including *Admittance Control*, *Force Tracking* and *Hybrid Force/Impedance Control*. Based on *kdl_parser* and *orocos_kdl*, it can be used out of box for any robot with wrist-mounted F/T sensor and robot's URDF file, merely with simple work of definition of the names of some topics and link frames in the launch file.
+This package implements force control functions including *Admittance Control*, *Force Tracking* and *Hybrid Force/Impedance Control*. Based on *kdl_parser* and *orocos_kdl*, it can be used out of box for any robot with wrist-mounted F/T sensor and robot's URDF file, merely with simple work of defining the names of some topics and link frames in the launch file.
 
 # Installation
-Two ways of installing the package.
+Two ways to install the package.
 ## Install on fc_intall_ws
 
 make folder on ~/

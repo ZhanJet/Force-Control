@@ -1,0 +1,8 @@
+prefix=/home/zhanjet/test/fc_ws/install
+
+Name: force_control
+Description: Description of force_control
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lforce_control
+Requires: roscpp tf tf_conversions std_srvs std_msgs sensor_msgs geometry_msgs kdl_parser kdl_conversions

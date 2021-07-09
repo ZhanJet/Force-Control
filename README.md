@@ -29,7 +29,7 @@ roscd force_control
 ```
 
 # Usage
-- Firstly, you should have a robot with velocity command interface of ROS and a 6-D F/T sensor on end-effector mounted.
+- Firstly, you should have a robot with velocity command interface of ROS and a 6-D F/T sensor mounted on end-effector.
 - Sencondly, you should prepare a URDF file of the robot, and load it through launch file.
 - Then, modify the topic names and frame names in the force_control.launch(in install/share/force_control/launch) according the used robot.
 - Lastly, after adjusting the parameters in config/fc_params.yaml, launch the force_control.launch

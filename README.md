@@ -4,23 +4,24 @@ Universal force control package for velocity commanded robots with Force/Torque 
 This package implements force control functions including *Admittance Control*, *Force Tracking* and *Hybrid Force/Impedance Control*. Based on *kdl_parser* and *orocos_kdl*, it can be used out of box for any robot with wrist-mounted F/T sensor and robot's URDF file, merely with simple work of definition of the names of some topics and link frames in the launch file.
 
 # Installation
-## Install on project_intall_ws
+Two ways of installing the package.
+## Install on fc_intall_ws
 
 make folder on ~/
 ```sh
 cd /home/${username}
-mkdir -p ${project}/${project}_install_ws
+mkdir -p ${project}/fc_install_ws
 ```
 
 clone git repository
 ```sh
-cd ~/${project}/${project}_install_ws 
+cd ~/${project}/fc_install_ws 
 git clone <https://github.com/*.git>
 ```
 source the setup.bash in install folder and add it into ~/.bashrc
 ```sh
-source ~/${project}/${project}_install_ws/install/setup.bash
-echo 'source ~/${project}/${project}_install_ws/install/setup.bash' >> ~/.bashrc
+source ~/${project}/fc_install_ws/install/setup.bash
+echo 'source ~/${project}/fc_install_ws/install/setup.bash' >> ~/.bashrc
 ```
 
 ## Intall on /opt/ros/melodic

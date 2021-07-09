@@ -4,7 +4,6 @@ This package implements force control functions including *Admittance Control*, 
 # Installation
 Two ways to install the package.
 ## Install on fc_intall_ws
-
 make folder on ~/
 ```sh
 cd /home/${username}

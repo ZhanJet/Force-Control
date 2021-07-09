@@ -1,6 +1,0 @@
-# request
-string data
------
-# response
-bool success
-string message

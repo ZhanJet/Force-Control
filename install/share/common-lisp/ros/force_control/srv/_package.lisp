@@ -1,0 +1,15 @@
+(cl:defpackage force_control-srv
+  (:use )
+  (:export
+   "SETFLOAT64"
+   "<SETFLOAT64-REQUEST>"
+   "SETFLOAT64-REQUEST"
+   "<SETFLOAT64-RESPONSE>"
+   "SETFLOAT64-RESPONSE"
+   "SETSTRING"
+   "<SETSTRING-REQUEST>"
+   "SETSTRING-REQUEST"
+   "<SETSTRING-RESPONSE>"
+   "SETSTRING-RESPONSE"
+  ))
+

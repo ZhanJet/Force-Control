@@ -9,7 +9,7 @@ Two ways to install the package.
 make folder on ~/ (or directory you want)
 ```sh
 $ cd ~
-$ mkdir -p fc_install_ws
+$ mkdir fc_install_ws
 ```
 
 clone git repository
@@ -32,7 +32,7 @@ $ roscd force_control
 
 # Usage
 - Firstly, you should have a robot with velocity command interface for ROS and a 6-D F/T sensor mounted on end-effector.
-- Sencondly, you should prepare a URDF file of the robot, and load it through the launch file [here](./fc_install_ws/install/share/force_control/launch/robot_bringup.launch).
-- Then, modify the names of topics and frames in the [force_control.launch](./fc_install_ws/install/share/force_control/launch/force_control.launch) according to the used robot.
+- Sencondly, you need to prepare a URDF file of the robot, and load it through the launch file [here](./fc_install_ws/install/share/force_control/launch/robot_bringup.launch).
+- Then, modify the names of topics and frames in [force_control.launch](./fc_install_ws/install/share/force_control/launch/force_control.launch) according to the used robot.
 - Lastly, after adjusting the parameters in [config/fc_params.yaml](./fc_install_ws/install/share/force_control/config/fc_params.yaml), launch the force_control.launch
 

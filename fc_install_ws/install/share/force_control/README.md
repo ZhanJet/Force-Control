@@ -6,7 +6,7 @@ This package implements force control functions including *Admittance Control*, 
 
 ## Interfaces
 
-The name of the following subscribed&published topics may need to be modified or remapped in the launch file according to the interfaces of the actual using robot.
+The name of the following subscribed & published topics may need to be modified or remapped in the launch file according to the interfaces of the robot you use.
 
 ### Subscribed Topics
 
@@ -27,9 +27,9 @@ The name of the following subscribed&published topics may need to be modified or
   * to send velocity command to robot (must have cartesian twist commanded interface)
   * for robot with only joint velocity interface, an inverse kinematic solver is required
 * **ee_pose_desired(geometry_msgs/PoseStamped)***
-  * desired pose in baseframe(computed through twist_desired)
+  * desired pose in base frame(computed through desired twist)
 * **ee_pose_real(geometry_msgs/PoseStamped)**
-  * robot pose in base frame
+  * real pose in base frame
 * **ee_twist_real(geometry_msgs/TwistStamped)***
   * robot twist in base frame
 

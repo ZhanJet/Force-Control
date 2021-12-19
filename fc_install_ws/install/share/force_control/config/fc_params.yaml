@@ -36,7 +36,7 @@ stiffness: [2000,0,0,0,0,0,    # [N/m]
             0,0,0,0,0,10]
 
 s_matrix: [1,0,0,0,0,0,     # select_matrix:
-           0,1,0,0,0,0,     # 1->impedance control
+           0,1,0,0,0,0,     # 1->admittance control
            0,0,0,0,0,0,     # 0->force control
            0,0,0,1,0,0,
            0,0,0,0,1,0,

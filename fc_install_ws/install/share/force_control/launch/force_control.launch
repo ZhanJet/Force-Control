@@ -3,7 +3,7 @@
   <!-- MAIN SETTINGS -->
   <!-- Running the controller implicitly(true) or explicitly(false) -->
   <arg name="autorun"   default="true"/>
-  <!-- The namespace of loading robot's urdf model -->
+  <!-- The namespace of the loaded urdf model -->
   <arg name="ns_robot" default="/me5"/>
 
   <!-- FC CONTROLLER SETTINGS -->
@@ -26,8 +26,8 @@
   <arg name="topic_twist_desired"   default="force_control/twist_desired"/>
 
   <!-- Include robot setup launch file (just for demonstration)-->
-  <!-- This can be CANCELED if the robot has been set up through other approach -->
-  <!--<include file="$(find force_control)/launch/robot_setup.launch" /> -->
+  <!-- This can be CANCELED if the robot has been bring up through other approach -->
+  <!--<include file="$(find force_control)/launch/robot_bringup.launch" /> -->
 
   <group ns="elfin">
     <param name="ns_robot" value="$(arg ns_robot)"/>
